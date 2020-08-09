@@ -1,0 +1,3 @@
+f = open("test.txt"):
+for text_line in f
+    print(text_line)
