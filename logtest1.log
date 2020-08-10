@@ -1,0 +1,5 @@
+import logging
+logging.basicConfig(filemode='test1.log', level=logging.DEBUG)
+logging.debug('logfile open')
+logging.info('test info output')
+logging.warning('test warning output')
